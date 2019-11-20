@@ -11,6 +11,7 @@ namespace dotNet_02
         static void Main(string[] args)
         {
             int a;
+            int f;
         }
     }
 }
