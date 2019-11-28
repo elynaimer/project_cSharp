@@ -385,10 +385,10 @@ namespace project2._2
             Int32.TryParse(flag, out hostkey);
             foreach (HostingUnit item in list)
             {
-                Int32.TryParse(flag, out item.HostingUnitkey)
-                flag += item.HostingUnitkey
+                flag += item.HostingUnitkey;
+                flag += item.ToString();
             }
-            return;
+            return flag;
         }
 
         public IEnumerator GetEnumerator()
